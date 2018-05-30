@@ -8,12 +8,12 @@ pipeline {
     }
     stage('build') {
       steps {
-        sh 'sh "echo build is successful"'
+        sh 'print " build is successful"'
       }
     }
     stage('finish') {
       steps {
-        sh 'sh "echo "done""'
+        sh 'print "done"'
       }
     }
   }
